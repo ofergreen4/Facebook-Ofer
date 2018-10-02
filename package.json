@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "react": "cd Client && npm run build",
-    "preserver": "cd server && npm i",
     "server": "cd Server && node express-server/server.js",
-    "start": "npm run react && npm run server"
+    "installclient": "cd Client && npm i",
+    "installserver": "cd Server && npm i",
+    "postinstall": "npm run installclient && npm run installserver && npm run react",
+    "start": "npm run server"
   },
   "author": "",
   "license": "ISC",
