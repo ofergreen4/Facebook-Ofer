@@ -16,5 +16,5 @@ const distFolder = path.join(__dirname, '../../Client/build');
 
 server.use(express.static(distFolder));
 
-server.listen(9090);
+server.listen(process.env.PORT || 9090);
 
