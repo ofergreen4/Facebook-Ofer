@@ -1,0 +1,25 @@
+.photovideo {
+    border-radius: 18px;
+    background: #f6f7f9;
+    width: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .photovideo:hover {
+    cursor: pointer;
+    background-color: #e9ebee;
+  }
+  .photovideo span {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color:  #365899;
+    margin-left: 10px;
+  }
+  .fa-image {
+    margin-left: 16px;
+    font-size:18px;
+    color:#32CD32;
+  }

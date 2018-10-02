@@ -1,0 +1,15 @@
+.sideshortcuts {
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 30px;
+  }
+  .sideshortcuts span {
+    display: flex;
+    align-items: flex-end;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #616770;
+    margin-left: 5px;
+  }

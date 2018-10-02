@@ -1,0 +1,29 @@
+.sidename {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+  }
+.sidenamephoto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.sidenamephoto:hover {
+    background: #f6f7f9;
+    border: 1px solid #dddfe2;
+}
+.sidename span {
+    justify-content: space-between;
+    font-family: Arial;
+    font-size: 13px; 
+    margin-left: 5px;
+    display: flex;
+  }
+.sidenamephoto > .dancer {
+  margin-left: 5px;
+}

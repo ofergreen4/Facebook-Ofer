@@ -1,0 +1,30 @@
+.eventcolumn {
+    width: 284px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    right: 200px;
+  }
+ 
+  .events {
+    width: 274px;
+    height: 50px;
+    background: blue;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+  }
+  .language {
+    width: 274px;
+    height: 80px;
+    background: blue;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+  }
+  

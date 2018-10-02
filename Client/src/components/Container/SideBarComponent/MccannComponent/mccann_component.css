@@ -1,0 +1,33 @@
+.sidemccannphoto span {
+    font-family: Arial;
+    font-size: 13px; 
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .fa-lightbulb {
+    margin-left: 2px;
+  }
+  .sidemccann:hover {
+    background: #f6f7f9;
+    border: 1px solid #dddfe2;
+    cursor: pointer;    
+  }
+  .fa-lightbulb {
+    font-size: 18px;
+    color: #FFD700;
+  }
+  .sidemccann {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
+.sidemccannphoto {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 140px;
+height: 25px;
+margin-left: 3px;
+}

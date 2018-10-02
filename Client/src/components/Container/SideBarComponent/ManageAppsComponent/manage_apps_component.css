@@ -1,0 +1,32 @@
+
+  .sidemanageapps:hover {
+    background: #f6f7f9;
+    border: 1px solid #dddfe2;
+    cursor: pointer;    
+  }
+  .sidemanageappsphoto span {
+    font-family: Arial;
+    font-size: 13px; 
+    justify-content: center;
+    margin-left: 8px;
+    }
+    .fa-wrench {
+      margin-left: 2px;
+      font-size:16px;
+      color:#008080;
+    }
+ .sidemanageapps {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+  }
+.sidemanageappsphoto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 140px;
+    height: 25px;
+    margin-left: 3px;
+    }

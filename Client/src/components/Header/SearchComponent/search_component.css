@@ -1,0 +1,35 @@
+.search {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+  }
+  .search1 {
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    width: 400px;
+    height: 22px;
+    cursor: text;
+  }
+  ::placeholder {
+    color: gray;
+    font-size: 0.8em;
+    text-indent: 9px;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  .search2 {
+    height: 24px;
+    background: #e0e0eb;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;  
+  }
+.fa-search {
+    font-size: 18px;
+    color:gray;
+    
+}

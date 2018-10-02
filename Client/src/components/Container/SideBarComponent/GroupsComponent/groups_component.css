@@ -1,0 +1,31 @@
+.sidegrpous:hover {
+    background: #f6f7f9;
+    border: 1px solid #dddfe2;
+    cursor: pointer;    
+  }
+  .sidegroupsphoto span {
+    font-family: Arial;
+    font-size: 13px; 
+    justify-content: center;
+    margin-left: 6px;
+  }
+  .fa-users {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #1c54cc;
+  }
+ .sidegrpous {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
+.sidegrpousphoto {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 140px;
+height: 25px;
+margin-left: 3px;
+}

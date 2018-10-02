@@ -1,0 +1,104 @@
+.headerRight {
+    width: 370px;
+    height: 40px;
+    margin-left: 796px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dancer {
+    border-radius: 50%;
+    border: 1px solid #dddfe2;
+    width: 20px;
+    height: 20px;
+  }
+  .myPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .myPhoto:hover {
+    background: rgba(0, 0, 0, .1);
+  }
+  .myPhoto span {
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    margin-left: -10px;
+  }
+  .name {
+    border-right: 1px solid #10295e;
+    width: 80px;
+  }
+  .home {
+    border-right: 1px solid #10295e;
+    width: 60px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home span {
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    padding: px;
+  }
+  .home:hover {
+    background: rgba(0, 0, 0, .1);
+  }
+  .icons {
+    width: 120px;
+    border-right: 1px solid #10295e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 24px;
+    margin-left: 4px;
+    padding-right: 8px;
+    cursor: pointer;
+  }
+  .fa-globe {
+    margin-right: -8px;
+    margin-top: 4px;
+  }
+  .fa-user-friends {
+    margin-top: 4px;
+  }
+  .icons .fa-facebook-messenger {
+    margin-top: 2px;
+  }
+  .help {
+    width: 80px;
+    cursor: pointer;
+  }
+  .help1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .fa-sort-down {
+    margin-bottom: 8px;
+    margin-left: -20px;
+    font-size: 20px;
+    color: #10295e;
+  }
+  .fa-user-friends {
+    font-size: 20px;
+    color: #10295e;
+  }
+  .fa-facebook-messenger_header {
+    font-size: 22px;
+    color:#10295e;
+  }
+  .fa-globe {
+    font-size: 22px;
+    color:#10295e;
+  }
+  .fa-question-circle {
+    font-size: 22px;
+    color:#10295e;
+  }

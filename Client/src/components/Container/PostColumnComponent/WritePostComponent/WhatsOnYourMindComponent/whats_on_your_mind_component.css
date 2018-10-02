@@ -1,0 +1,27 @@
+.postphoto {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .on-your-mind-placeholder {
+    font-family: Arial;
+    color: gray;
+    cursor: text;
+    border: none;
+    font-size: 18px;
+    align-items: center;
+    margin: 10px;
+    resize: none;
+    position: relative;
+    display: flex;
+    }
+  .on-your-mind-placeholder::placeholder {
+    padding-top: 3px;
+  }
+  .postphotodancer {
+    border-radius: 50%;
+    border: 1px solid #dddfe2;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    }

@@ -1,0 +1,25 @@
+.feeling {
+    border-radius: 18px;
+    background: #f6f7f9;
+    width: 160px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .feeling:hover {
+    cursor: pointer;
+    background-color: #e9ebee;
+  }
+  .feeling span {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color:  #365899;
+    margin-left: 10px;
+  }
+  .fa-smile {
+    margin-left: 15px;
+    font-size:18px;
+    color:#FFD700;
+  }

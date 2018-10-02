@@ -1,0 +1,30 @@
+.sidemarketplacephoto span {
+    font-family: Arial;
+    font-size: 13px; 
+    justify-content: center;
+    margin-left: 6px;
+  }
+.sidemarketplace:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;    
+}
+.sidemarketplace {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
+.sidemarketplacephoto {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 140px;
+height: 25px;
+margin-left: 3px;
+}
+.fa-store {
+font-size: 16px;
+color: #ff704d;
+}

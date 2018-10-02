@@ -1,0 +1,61 @@
+.writepost {
+    display: flex;
+    width: 450px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    flex-direction: column;
+    left: 200px;
+  }
+  .item-1 {
+    width: 450px;
+    height: 30px;
+    background: #f6f7f9;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+
+  .item-2 {
+    width: 450px;
+    height: 70px;
+    border-top: 1px solid #dddfe2;
+    border-bottom: 1px solid #dddfe2;
+    display: flex;
+    align-items: center;
+  }
+  
+
+    .item-3 {
+        width: 450px;
+        height: 45px; 
+        display: flex;
+        align-items: center;
+      }
+    
+      
+     
+      .whats-on-your-mind-post-button {
+        border-radius: 18px;
+        border: none;
+        background: #f6f7f9;
+        text-decoration: none;
+        width: 50px;
+        height: 30px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        font-size: 13px;
+        font-weight: bold;
+        color:  #365899;
+        justify-content: center;    
+        }
+    .whats-on-your-mind-post-button:hover { 
+        cursor: pointer;
+        background-color: #e9ebee;
+    }

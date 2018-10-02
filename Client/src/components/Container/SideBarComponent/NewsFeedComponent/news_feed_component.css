@@ -1,0 +1,31 @@
+.sidenewsfeed {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    background: #f6f7f9;
+    border: 1px solid #dddfe2;
+    cursor: pointer;
+  }
+  .sidenewsfeedphoto span {
+    justify-content: center;
+    font-family: Arial;
+    font-size: 13px;
+    margin-left: 10px;
+    display: flex;
+    font-weight: bold;
+  }
+.sidenewsfeedphoto .fa-file-alt {
+   margin-left: 2px;
+   font-size: 18px;
+   color: #1c54cc;
+  }
+  .sidenewsfeedphoto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 140px;
+    height: 25px;
+    margin-left: 3px;
+    }

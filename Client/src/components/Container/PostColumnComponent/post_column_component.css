@@ -1,0 +1,234 @@
+.postcolumn {
+    width: 470px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+  }
+  .posts {
+    width: 470px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .likesPostCounter {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .likesPostCounterNumber{
+    width: 100%;
+    height: 40px;
+    font-family: Arial;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+ 
+  article {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 430px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+  
+
+  author {
+    color: #365899;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  author:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color:  #365899;
+    text-decoration-style: solid; 
+  }
+  p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.38;
+  }
+  .postphotodancer-general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 46px;
+  }
+  .post1-photonamedate {
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .post1-imagetext {
+    width: 430px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .postdiv1 {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    justify-content: center;
+  }
+  .myPosts {
+    width: 450px;
+    height: 100%; 
+  }
+  .comment-container {
+    width: 450px;
+    border-top: 1px solid #dddfe2;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+  }
+  .comment-wrapper {
+    width:430px;
+    display: flex;
+    flex-direction: column;
+  }
+  .write-comment {
+    width:430px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .comment-image {
+    border-radius: 50%;
+    border: 1px solid #dddfe2;
+    cursor: pointer;
+  }
+  .write-comment-placeholder{
+    width: 380px;
+    height: 22px;
+    font-family: Arial;
+    color: #90949c;
+    cursor: text;
+    border-radius: 18px;
+    font-size: 16px;
+    resize: none;
+    text-indent: 8px;
+    padding-top: 5px;
+  }
+  .write-comment-placeholder::placeholder {
+    padding-top: 3px;
+  }
+  .commentinfo {
+    width: 100%;
+  }
+  .commentGeneral {
+    display: flex;
+    align-items: center;
+  }
+  .added-comment span{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #365898;
+  }
+  .commentWrap {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .added-comment{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #eff1f3;
+    padding: 10px;
+    border-radius: 16px;
+    display: flex;
+  }
+  .img-comment {
+    border-radius: 50%;
+    border: 1px solid #dddfe2;
+    cursor: pointer;
+  }
+  .imgWrap {
+    margin-left: 4px;
+  }
+  .commentValue {
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 13px;
+  }
+  .actionToComment {
+    display: flex;
+    align-items: center;
+    line-height: 8px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-top: -5px;
+    width: 60px;
+  }
+  .centeredPoint {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .likeComment > a, .replyToComment > a {
+  text-decoration: none;
+  color: #365899;
+  font-family: Arial;
+  font-size: 13px;
+  }
+  .actionTime {
+    color: #90949c;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  .likesWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35px;
+    height: 17px;
+    border-radius: 35px;
+    border: 1px solid #dddfe2;
+    padding: 2px;
+    align-self: flex-end;
+    position: relative;
+    top: -10px;
+    left: -8px;
+    z-index: 5;
+    background: white;
+  }
+  .commentLikes {
+    width: 15px;
+    height: 15px;
+  }
+  .likesCounterNumber {
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+  
+  
+  
+  .postgeneraltext-1 > .fa-ellipsis-h {
+    cursor: pointer;
+  }

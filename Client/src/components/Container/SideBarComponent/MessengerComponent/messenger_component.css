@@ -1,0 +1,31 @@
+.sidemessengerphoto span {
+    font-family: Arial;
+    font-size: 13px; 
+    justify-content: center;
+    margin-left: 8px;
+    display: flex;
+  }
+  .sidemessenger:hover {
+    background: #f6f7f9;
+    border: 1px solid #dddfe2;
+    cursor: pointer;    
+}
+.fa-facebook-messenger_sidebar {
+    font-size: 20px;
+    color: #1c54cc;
+}
+.sidemessenger{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
+.sidemessengerphoto {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 140px;
+height: 25px;
+margin-left: 3px;
+}

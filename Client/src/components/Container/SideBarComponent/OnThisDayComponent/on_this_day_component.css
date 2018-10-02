@@ -1,0 +1,32 @@
+.sideonthisday:hover {
+    background: #f6f7f9;
+    border: 1px solid #dddfe2;
+    cursor: pointer;    
+  }
+  .sideonthisdayphoto span {
+    font-family: Arial;
+    font-size: 13px; 
+    justify-content: center;
+    margin-left: 8px;
+    }
+  .fa-clock {
+      margin-left: 2px;
+      font-size:18px;
+      color:#1c54cc;
+    }
+    .sideonthisday{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+  }
+   .sideonthisdayphoto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 140px;
+    height: 25px;
+    margin-left: 3px;
+    }
+    
