@@ -7,8 +7,7 @@
     "react": "cd Client && npm run build",
     "server": "cd Server && node express-server/server.js",
     "installclient": "cd Client && npm i",
-    "installserver": "cd Server && npm i",
-    "postinstall": "npm run installclient && npm run installserver && npm run react",
+    "postinstall": "npm run installclient && npm run react",
     "start": "npm run server"
   },
   "author": "",
